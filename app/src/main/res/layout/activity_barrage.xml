@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="barragePresenter"
+            type="com.example.zhoule.barragedemo.modle.BarragePresenter" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.zhoule.barragedemo.view.MediaPlayerView
+            android:id="@+id/playerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <com.example.zhoule.barragedemo.view.TranTextView
+            android:id="@+id/tran_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</layout>
